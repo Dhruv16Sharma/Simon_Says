@@ -32,3 +32,22 @@ body {
 .userflash {
   background-color: green;
 }
+.btn:hover {
+  cursor: pointer;
+  transform: translate(1px, 1px);
+}
+
+.start {
+  padding: 7px;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-size: medium;
+  background-color: #98b6c07c;
+  outline: 2px solid rgb(111, 105, 105);
+  outline-offset: 1.5px;
+}
+.start:hover {
+  cursor: pointer;
+  transform: translate(1px, 1px);
+  background-color: #95aab1c4;
+}
